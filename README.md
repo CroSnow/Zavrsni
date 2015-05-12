@@ -1,2 +1,2 @@
 # Zavrsni
-Third year graduation done in collaboration with LMrcela
+Third year graduation done in collaboration with MrLovre
