@@ -1,0 +1,42 @@
+@CHARSET "UTF-8";
+
+.id {
+	width: 30px;
+	text-align: center;
+	font-style: italic;
+}
+
+#wrapper {
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#poruka {
+	display: block;
+	height: 50px;
+	color: teal;
+	font-style: italic;
+	height: 50px;
+}
+
+.komponente {
+	table-layout: fixed;
+	overflow: hidden;
+}
+
+.komponente td {
+	padding-left: 5px;
+	padding-right: 5px;
+	text-align: center;
+}
+
+#opis td {
+	text-align: right;
+	font-weight: bold;
+}
+
+h1 {
+	text-align: center;
+}

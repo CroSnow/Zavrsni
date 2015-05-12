@@ -1,0 +1,239 @@
+@CHARSET "UTF-8";
+
+body {
+	background-color: #b9bad7;
+}
+
+#drawer {
+	display: block;
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#componentC {
+	border: 3px solid #000040;
+		position: relative;
+	border-radius: 5px;
+	background-color: #ffffff;
+}
+
+#canvasContainer {
+	float: left;
+	margin-left: 20px;
+}
+
+#pozdrav {
+	text-align: center;
+	margin: 10px;
+	font-variant: small-caps;
+	/* 	height: 100%; */
+}
+
+#line {
+	margin-bottom: 5px;
+}
+
+#menu {
+	margin-left: auto;
+	margin-right: auto;
+/* 	width: 30%; */
+	table-layout: fixed;
+}
+
+#menu td {
+	width: 90px;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #404347 url(images/bg.gif) repeat-x;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #f7f7f7;
+}
+
+a {
+	color: #60C3DB;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#wrap {
+	width: 980px;
+	margin: 0 auto;
+}
+
+#header {
+	margin: 40px 0 50px 0;
+}
+
+#header h1 {
+	font-size: 26px;
+	font-weight: 100;
+	letter-spacing: -2px;
+}
+
+#header h1 a {
+	color: #FAFFB0;
+	text-decoration: none;
+}
+
+#header h1 a:hover {
+	color: #eee;
+	text-decoration: none;
+}
+
+#header h2 {
+	color: #999;
+	font-size: 18px;
+	font-weight: 100;
+}
+
+#content {
+	float: right;
+	width: 468px;
+	padding: 0 20px 20px 20px;
+	border-left: 1px dotted #aaa;
+	text-align: justify;
+}
+
+#content h2 {
+	color: #B0FFBD;
+	font-size: 16px;
+	font-weight: 100;
+	padding: 10px 0 5px 0;
+	border-bottom: 1px dotted #aaa;
+	margin-bottom: 10px;
+}
+
+#content h2 a {
+	color: #B0FFBD;
+	text-decoration: none;
+}
+
+#content h2 a:hover {
+	color: #eee;
+}
+
+#leftmenu {
+	float: left;
+	width: 200px;
+	padding: 0 20px 20px 0;
+}
+
+#leftmenu h2 {
+	border-bottom: 1px dotted #aaa;
+	padding: 10px 0 10px 0;
+	margin-bottom: 10px;
+	color: #B0FFBD;
+	font-size: 16px;
+	font-weight: 100;
+}
+
+#leftmenu ul {
+	list-style-type: none;
+	padding: 0 0 10px 0;
+}
+
+#rightmenu {
+	float: left;
+	width: 250px;
+	padding: 0 20px 20px 20px;
+	border-left: 1px dotted #aaa;
+}
+
+#rightmenu h2 {
+	border-bottom: 1px dotted #aaa;
+	padding: 10px 0 5px 0;
+	margin-bottom: 10px;
+	color: #B0FFBD;
+	font-size: 16px;
+	font-weight: 100;
+}
+
+#rightmenu ul {
+	list-style-type: none;
+	padding: 0 0 10px 0;
+}
+
+#footer {
+	margin-top: 20px;
+	border-top: 1px dotted #aaa;
+	font-size: 11px;
+	text-align: center;
+	padding: 10px 0 10px 0;
+}
+
+#footer a {
+	
+}
+
+#footer a:hover {
+	
+}
+
+button {
+	-moz-box-shadow: inset 0px 1px 3px 0px #91b8b3;
+	-webkit-box-shadow: inset 0px 1px 3px 0px #91b8b3;
+	box-shadow: inset 0px 1px 3px 0px #91b8b3;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #768d87
+		), color-stop(1, #6c7c7c));
+	background: -moz-linear-gradient(top, #768d87 5%, #6c7c7c 100%);
+	background: -webkit-linear-gradient(top, #768d87 5%, #6c7c7c 100%);
+	background: -o-linear-gradient(top, #768d87 5%, #6c7c7c 100%);
+	background: -ms-linear-gradient(top, #768d87 5%, #6c7c7c 100%);
+	background: linear-gradient(to bottom, #768d87 5%, #6c7c7c 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#768d87',
+		endColorstr='#6c7c7c', GradientType=0);
+	background-color: #768d87;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px solid #566963;
+	display: inline-block;
+	cursor: pointer;
+	color: #ffffff;
+	font-family: arial;
+	font-size: 15px;
+	font-weight: bold;
+	/*padding: 11px 23px;*/
+	text-decoration: none;
+	text-shadow: 0px -1px 0px #2b665e;
+	width: 100%;
+	height: 40pt;
+}
+
+#all td {
+	width: 40pt;
+}
+
+Button:hover {
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #6c7c7c
+		), color-stop(1, #768d87));
+	background: -moz-linear-gradient(top, #6c7c7c 5%, #768d87 100%);
+	background: -webkit-linear-gradient(top, #6c7c7c 5%, #768d87 100%);
+	background: -o-linear-gradient(top, #6c7c7c 5%, #768d87 100%);
+	background: -ms-linear-gradient(top, #6c7c7c 5%, #768d87 100%);
+	background: linear-gradient(to bottom, #6c7c7c 5%, #768d87 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#6c7c7c',
+		endColorstr='#768d87', GradientType=0);
+	background-color: #6c7c7c;
+}
+
+Button:active {
+	position: relative;
+	top: 1px;
+}
+
+#debug {
+	height: 200px;
+	overflow-y: scroll;
+}

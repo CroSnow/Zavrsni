@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data-sources>
+	<data-source id="mysql5-1426950956782--290621342" provider="mysql" driver="mysql5" name="MySQL - componentDB" create-date="1426951003663" update-date="1426951053106" save-password="true" show-system-objects="true" read-only="false">
+		<connection host="localhost" port="3306" server="" database="componentDB" url="jdbc:mysql://localhost:3306/componentDB" user="component" password="EAsLMFZHF0Vl8w==" home="/usr" type="dev">
+			<property name="@dbeaver-ssl@" value="false"/>
+			<network-handler type="PROXY" id="socks_proxy" enabled="false" user="" save-password="false">
+				<property name="socks-host" value=""/>
+				<property name="socks-port" value="1080"/>
+			</network-handler>
+			<network-handler type="TUNNEL" id="ssh_tunnel" enabled="false" user="" save-password="false">
+				<property name="port" value="22"/>
+				<property name="keyPath" value=""/>
+				<property name="host" value=""/>
+				<property name="authType" value="PASSWORD"/>
+			</network-handler>
+		</connection>
+		<custom-property name="default.activeObject" value=""/>
+	</data-source>
+</data-sources>
